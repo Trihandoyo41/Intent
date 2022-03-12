@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="185dp">
+
+        <ImageView
+            android:id="@+id/rumahsakit"
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:onClick="clikRS"
+            app:srcCompat="@drawable/rumahsakit" />
+
+        <ImageView
+            android:id="@+id/Polisii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            app:srcCompat="@drawable/polisii" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="204dp">
+
+        <ImageView
+            android:id="@+id/supermarket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            app:srcCompat="@drawable/supermarket" />
+
+        <ImageView
+            android:id="@+id/sekolah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            app:srcCompat="@drawable/sekolah" />
+
+    </TableRow>
+</LinearLayout>
